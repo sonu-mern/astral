@@ -16,7 +16,7 @@ import { IoPlayCircleOutline } from "react-icons/io5";
 import srv1 from "../image/serviceImg/srv1.png";
 import srv2 from "../image/serviceImg/srv2.png";
 import srv3 from "../image/serviceImg/srv3.png";
-import Loader from "../components/loader";
+import Loader from "../components/Loader";
 
 function LandingPage() {
   const [data, setData] = useState(null); // Initialize with null

@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import Loader from './components/loader';
+import Loader from './components/Loader';
 
 // Lazy load the LandingPage component
 const LandingPage = React.lazy(() => import('./Pages/LandingPage'));
