@@ -1,0 +1,351 @@
+.page1 {
+  background: white;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  /* border: 2px solid red; */
+  /* font-size: 5vmax; */
+}
+.nav {
+  width: 100%;
+  height: 12%;
+  /* border: 2px solid green; */
+  background-color: #0061b0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+.navlinks {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+  /* border: 2px solid green;  */
+}
+.navbtn {
+  width: 10%;
+  height: 100%;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page1main {
+  width: 100%;
+  height: 83.5%;
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding-top: 8%;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+.p1Title {
+  font-size: 3vmax;
+  font-weight: 800;
+}
+.page1main > div {
+  width: 30%;
+  height: 45%;
+  /* border: 2px solid red; */
+  color: white;
+}
+.page1SideNav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2.5vmax;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.629) !important;
+}
+.page1footer {
+  background-image: url("../image/rainbow.png");
+  background-size: 140% 105%;
+  position: absolute;
+  bottom: -14%;
+  z-index: 10;
+
+  /* margin-top: -5%; */
+  width: 99.9%;
+  height: 60%;
+  /* border: 2px solid green; */
+}
+.page2 {
+  width: 100vw;
+  height: 100vh;
+  margin-top: -1.5%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  /* background: rgb(180, 123, 10); */
+
+  z-index: 1;
+}
+.p2LeftBorder {
+  background: rgb(180, 123, 10);
+  background: linear-gradient(
+    180deg,
+    rgba(180, 123, 10, 1) 0%,
+    rgba(226, 57, 10, 1) 39%
+  );
+  width: 1.2%;
+  height: 100%;
+  rotate: 180deg;
+}
+.p2Main {
+  width: 98.5%;
+  height: 100%;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.p2Main > div {
+  width: 40%;
+  height: 80%;
+  /* border: 2px solid red; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.p2Main > div:first-child {
+  margin-top: 10%;
+}
+.p2Stroke {
+  /* background-image: url("../image/stroke/image.png"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 5%;
+  margin-top: -1%;
+  /* border: 2px solid blue; */
+}
+.pageHeader {
+  width: 100%;
+  height: 20%;
+  /* border: 2px solid blue !important; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.strokeDiv {
+  margin-top: -2%;
+  width: 100%;
+  height: 70%;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.p2vImgDiv > img {
+  width: 100%;
+  height: 100%;
+}
+.p2vImgDiv {
+  position: relative;
+}
+.p2playbtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3vmax;
+  color: white;
+  cursor: pointer;
+}
+.page3 {
+  width: 100vw;
+  height: 100vh;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+.p3LeftBorder {
+  background: rgb(180, 78, 10);
+  background: linear-gradient(
+    237deg,
+    rgba(180, 78, 10, 1) 0%,
+    rgba(234, 191, 11, 1) 39%
+  );
+  width: 1.2%;
+  height: 100%;
+  /* rotate: 180deg; */
+}
+.p3Main {
+  width: 99.5%;
+  height: 100%;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.p3Main > div {
+  width: 85%;
+  /* border: 2px solid green; */
+  height: 100%;
+}
+.p3mainDiv {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.p3bigImgDiv {
+  position: relative;
+}
+.p3mainDiv > div {
+  width: 49%;
+  height: 100%;
+  cursor: pointer;
+  /* border: 2px solid red; */
+}
+.p3bigImgDiv > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* &:hover {
+    scale: 1.01;
+    transition: ease-in-out 0.5s;
+  } */
+}
+.p3bigImgDiv > div {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 15%;
+  /* border: 2px solid red; */
+  background-color: #c7873f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.2vmax;
+  color: white;
+  font-weight: 600;
+}
+.p3smallImgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.p3smallImgDiv > div {
+  width: 48%;
+  height: 48%;
+  /* border: 2px solid red; */
+  position: relative;
+}
+.p3smallImgDiv > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  &:hover {
+    scale: 1.01;
+    transition: ease-in-out 0.5s;
+  }
+}
+.p3smallImgDivTitle {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  font-size: 1.2vmax;
+  color: white;
+  font-weight: 600;
+}
+.page4 {
+  width: 100vw;
+  height: 65vh;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+.p4LeftBorder {
+  background: rgb(10, 180, 58);
+  background: linear-gradient(
+    237deg,
+    rgba(10, 180, 58, 1) 0%,
+    rgba(244, 207, 49, 1) 39%
+  );
+  width: 1.2%;
+  height: 100%;
+  rotate: 180deg;
+}
+.p4Main {
+  width: 99.5%;
+  height: 100%;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.p4Main > div {
+  width: 86%;
+  height: 100%;
+  /* border: 2px solid red; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.p4mainDiv {
+  width: 100%;
+  height: 80%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.p4bigImgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 100%;
+}
+.p4ImgDiv {
+  width: 32%;
+  height: 100%;
+  cursor: pointer;
+  /* border: 2px solid red; */
+}
+.p4ImgDiv > div:first-child {
+  width: 100%;
+  height: 65%;
+}
+.p4ImgDiv > div:last-child {
+  width: 100%;
+  height: 35%;
+  padding-left: 5%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5%;
+}
+.p4ImgDiv > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.p4ImgDiv > div > img:hover {
+  scale: 1.01;
+  transition: ease-in-out 0.5s;
+}
