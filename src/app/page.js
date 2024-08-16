@@ -1,10 +1,9 @@
 import React, { Suspense } from 'react';
 import Loader from './components/Loader';
-
-// Lazy load the LandingPage component
+console.log = () => {};
 const LandingPage = React.lazy(() => import('./Pages/LandingPage'));
-
 function Page() {
+
   return (
     <>
       

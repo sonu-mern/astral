@@ -17,6 +17,7 @@ import srv1 from "../image/serviceImg/srv1.png";
 import srv2 from "../image/serviceImg/srv2.png";
 import srv3 from "../image/serviceImg/srv3.png";
 import Loader from "../components/Loader";
+console.log = () => {};
 
 function LandingPage() {
   const [data, setData] = useState(null); // Initialize with null
